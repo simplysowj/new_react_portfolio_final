@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/new_react_portfolio_final/static/css/main.89644813.css",
-    "main.js": "/new_react_portfolio_final/static/js/main.01cb3029.js",
-    "static/js/415.4d6acbeb.chunk.js": "/new_react_portfolio_final/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/new_react_portfolio_final/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/new_react_portfolio_final/static/css/main.63d13231.css",
+    "main.js": "/new_react_portfolio_final/static/js/main.b51b1c98.js",
+    "static/js/415.fb51c11d.chunk.js": "/new_react_portfolio_final/static/js/415.fb51c11d.chunk.js",
+    "static/js/787.35dd0f9c.chunk.js": "/new_react_portfolio_final/static/js/787.35dd0f9c.chunk.js",
     "static/media/xl.jpg": "/new_react_portfolio_final/static/media/xl.027bcb1e2d2a292a3efc.jpg",
     "static/media/sql.jpg": "/new_react_portfolio_final/static/media/sql.ec06b3d6e06a513ddd00.jpg",
     "static/media/spam.jpg": "/new_react_portfolio_final/static/media/spam.68fe1890fd072b8a91b2.jpg",
@@ -11,11 +11,11 @@
     "static/media/ic.png": "/new_react_portfolio_final/static/media/ic.83c7fc27557ff89134be.png",
     "static/media/sen.png": "/new_react_portfolio_final/static/media/sen.d16069d85f845d749854.png",
     "static/media/profile1.jpg": "/new_react_portfolio_final/static/media/profile1.9d818868c190b3ec66c8.jpg",
-    "static/media/about.png": "/new_react_portfolio_final/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/ats.jpg": "/new_react_portfolio_final/static/media/ats.d35fcffb6b41d2bf1c5d.jpg",
+    "static/media/about1.png": "/new_react_portfolio_final/static/media/about1.ccfe20eb80762b83405c.png",
+    "static/media/Sowjanya_AI_resume_new.pdf": "/new_react_portfolio_final/static/media/Sowjanya_AI_resume_new.e05a606c18d95ba90e1e.pdf",
     "static/media/mr.png": "/new_react_portfolio_final/static/media/mr.853a0f1efa3c3ab63700.png",
     "static/media/logo3.png": "/new_react_portfolio_final/static/media/logo3.8ff7a1f2c7a07a9b969f.png",
-    "static/media/Sowjanya_Data_science_latestresume.pdf": "/new_react_portfolio_final/static/media/Sowjanya_Data_science_latestresume.9fd49f7154b161d60b39.pdf",
     "static/media/bh.jpg": "/new_react_portfolio_final/static/media/bh.661068a3ae110d5699e2.jpg",
     "static/media/CD.jpg": "/new_react_portfolio_final/static/media/CD.3c91bafbe652a5ae94aa.jpg",
     "static/media/p1.jpg": "/new_react_portfolio_final/static/media/p1.90ccaea114163e69e8f2.jpg",
@@ -24,13 +24,13 @@
     "static/media/data.jpg": "/new_react_portfolio_final/static/media/data.f05243040e9f32a1bac6.jpg",
     "static/media/pre.svg": "/new_react_portfolio_final/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/new_react_portfolio_final/index.html",
-    "main.89644813.css.map": "/new_react_portfolio_final/static/css/main.89644813.css.map",
-    "main.01cb3029.js.map": "/new_react_portfolio_final/static/js/main.01cb3029.js.map",
-    "415.4d6acbeb.chunk.js.map": "/new_react_portfolio_final/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/new_react_portfolio_final/static/js/787.1ed0c42c.chunk.js.map"
+    "main.63d13231.css.map": "/new_react_portfolio_final/static/css/main.63d13231.css.map",
+    "main.b51b1c98.js.map": "/new_react_portfolio_final/static/js/main.b51b1c98.js.map",
+    "415.fb51c11d.chunk.js.map": "/new_react_portfolio_final/static/js/415.fb51c11d.chunk.js.map",
+    "787.35dd0f9c.chunk.js.map": "/new_react_portfolio_final/static/js/787.35dd0f9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89644813.css",
-    "static/js/main.01cb3029.js"
+    "static/css/main.63d13231.css",
+    "static/js/main.b51b1c98.js"
   ]
 }
