@@ -2,12 +2,18 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import vecdb from "../../Assets/Projects/vecdb.png";
 import ic from "../../Assets/Projects/ic.png";
+import da from "../../Assets/Projects/da.jpg";
+import graph from "../../Assets/Projects/graph.webp";
+import llmops from "../../Assets/Projects/LLMOps.webp";
+import ml from "../../Assets/Projects/ml.png";
+import mlops from "../../Assets/Projects/mlops.webp";
+
 import mr from "../../Assets/Projects/mr.png";
 import bd from "../../Assets/Projects/bd.png";
 import ats from "../../Assets/Projects/ats.jpg";
-import spam from "../../Assets/Projects/spam.jpg";
+import crew from "../../Assets/Projects/crew.jpg";
 import gold from "../../Assets/Projects/gold.png";
 import sen from "../../Assets/Projects/sen.png";
 import data from "../../Assets/Projects/data.jpg";
@@ -64,12 +70,59 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CD}
+              imgPath={graph}
               isBlog={false}
-              title="CAT VS DOG"
-              description="CNN model of cat prediction in to a website using flask framework."
-              ghLink="https://github.com/simplysowj"
-              demoLink="https://www.linkedin.com/posts/sowjanya-bojja_tensorflow-flask-deeplearning-activity-7163954448375996417-BExp?utm_source=share&utm_medium=member_desktop"
+              title="Rag with Neo4j"
+              description="Rag with Graph DB(Neo4j)"
+              ghLink="https://github.com/simplysowj/RAG-LLM"
+              demoLink="https://www.linkedin.com/posts/sowjanya-bojja_sowjanya-b-congratulations-on-completing-activity-7263402291334889472-GZrm?utm_source=share&utm_medium=member_desktop"     
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vecdb}
+              isBlog={false}
+              title="Rag with VectorDB"
+              description="Rag with Vector DB for personal portfolio"
+              ghLink="https://github.com/simplysowj/RAG-Vectordb"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crew}
+              isBlog={false}
+              title="MultiAgent Systems with CrewAI"
+              description="a universal multi-agent framework that allows for all agents to work together to automate tasks and solve problems"
+              ghLink="https://github.com/simplysowj/CrewAI"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sen}
+              isBlog={false}
+              title="NLP Projects"
+              description="sentiment analysis using Apache Spark, Kafka, PySpark the Python API for Apache Spark, Zeppelin, and Streamlit! "
+              ghLink="https://github.com/simplysowj/"
+              demoLink="https://www.linkedin.com/posts/sowjanya-bojja_sentimentanalysis-apachespark-kafka-activity-7186393653991415808-2qUG?utm_source=share&utm_medium=member_desktop"     
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={llmops}
+              isBlog={false}
+              title="LLmops Projects"
+              description="LLMOPS projects with Coursera"
+              ghLink="https://github.com/simplysowj/LLMOPS-GenAI"
+                 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mlops}
+              isBlog={false}
+              title="MLOPS Project"
+              description="Quora Duplicate Question Detector with heroku using MLFLOW and Prefect Orchestration"
+              ghLink="https://github.com/simplysowj/Quora_duplicate_question_detector"
             />
           </Col>
 
@@ -90,20 +143,39 @@ function Projects() {
               imgPath={ats}
               isBlog={false}
               title="ATS Resume expert App and chatbot"
-              description="Developed a dynamic ATS Resume Expert application using Gemini-pro-vision during my internship with Mentorness. Utilizing OpenAI's Generative AI capabilities, it analyzes PDF resumes against job descriptions, offering evaluations on alignment, missing keywords, and candidate suitability. This Streamlit app showcases a versatile portfolio template integrating features like resume parsing, an AI chatbot powered by OpenAI, and interactive elements for comprehensive personal branding, demonstrating proficiency in leveraging diverse technologies for impactful web experiences."
+              description="Developed a dynamic ATS Resume Expert application using Gemini-pro-vision during my internship with Mentorness. "
               ghLink="https://github.com/simplysowj/Mentorness"
               demoLink="https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={da}
+              isBlog={false}
+              title="Data Analysis Projects"
+              description="Data Analysis with SQL,Tableu,PowerBI,Adv Excel and Python"
+              ghLink="https://github.com/simplysowj/Data_Analysis"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={spam}
+              imgPath={ml}
               isBlog={false}
-              title="SMS spam/ham classifier, Cat vs Dog Classifier and Titanic data Classification projects"
+              title="ML Projects"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               ghLink="https://github.com/simplysowj/CatVsDog_Classifier-SpamDetector"
               demoLink="https://www.linkedin.com/posts/sowjanya-bojja_internship-journey-with-bharat-intern-sms-activity-7164659747697205248-sOjj?utm_source=share&utm_medium=member_desktop"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CD}
+              isBlog={false}
+              title="DL Projects"
+              description="CNN model of cat prediction in to a website using flask framework."
+              ghLink="https://github.com/simplysowj"
+              demoLink="https://www.linkedin.com/posts/sowjanya-bojja_tensorflow-flask-deeplearning-activity-7163954448375996417-BExp?utm_source=share&utm_medium=member_desktop"
             />
           </Col>
 
@@ -118,16 +190,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sen}
-              isBlog={false}
-              title="Sentiment Analysis"
-              description="sentiment analysis using Apache Spark, Kafka, PySpark the Python API for Apache Spark, Zeppelin, and Streamlit! "
-              ghLink="https://github.com/simplysowj/"
-              demoLink="https://www.linkedin.com/posts/sowjanya-bojja_sentimentanalysis-apachespark-kafka-activity-7186393653991415808-2qUG?utm_source=share&utm_medium=member_desktop"     
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bh}
