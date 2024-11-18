@@ -11,11 +11,11 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sowjanya Bojja </span>
             
             <br />
-            I am Data Science enthusiastic.
+            I am AI enthusiastic.
             <br />
             Master of science in Data Science  
             <br />
-            Please feel free to explore my portfolio in the navigation bar for more details about me.
+            Please feel free to explore my portfolio RAG Personal BOT https://sowji-rag-ryghknvuvr332lqhy56tqn.streamlit.app/ in the navigation bar for more details about me.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
